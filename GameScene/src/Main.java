@@ -2,7 +2,7 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        GameBoard gameBoard = new GameBoard(50, 50, SceneType.EUROPEAN, 10);
+        GameBoard gameBoard = new GameBoard(15, 15, SceneType.EUROPEAN, 2);
 
         Character character1 = new Character("Human", 30);
         Character character2 = new Character("Elf", 200);
